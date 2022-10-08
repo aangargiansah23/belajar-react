@@ -1,10 +1,10 @@
 import React from "react";
 
-var MenuMakanan = () => {
+var MenuMakanan = (props) => {
   return (
       <div style={{border: '1px solid black', width: 300, margin: 'auto'}}>
-        <p>Nama Makanan : Ayam Bakar </p>
-        <p>Harga : 25.000</p>
+        <p>Nama Makanan : {props.namaMenu} </p>
+        <p>Harga : {props.hargaMenu}</p>
       </div>
   );
 };

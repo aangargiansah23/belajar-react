@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <h1>Cafe and Resto Codepolitan</h1>
       <h2>Menu Makanan</h2>
-      <MenuMakanan />
+      <MenuMakanan namaMenu="Ayam Bakar" hargaMenu="25.000" />
       <h2>Menu Minuman</h2>
-      <MenuMinuman />
+      <MenuMinuman namaMenu="Juice Melon" hargaMenu="15.000"/>
     </div>
   );
 }
