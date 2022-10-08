@@ -4,7 +4,7 @@ class MenuMinuman extends Component {
   render () {
     return (
       <div style={{border: '1px solid black', width: 300, margin: 'auto'}}>
-        <p>Nama Minuman : {this.props.namaMenu} </p>
+        <p>Nama Makanan : {this.props.namaMenu} </p>
         <p>Harga : {this.props.hargaMenu}</p>
       </div>
     );
